@@ -1,0 +1,42 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Nexmeer'
+theme = 'PaperMod'
+
+[params]
+  env = "production"
+  showToc = true
+  showReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+
+  [params.search]
+    enable = true
+
+[params.profileMode]
+enabled = true
+title = "Nameer Ahmad"
+subtitle = "Figuring it out as I go 🧩"
+imageUrl = "profile.png"
+imageTitle = "<title of image as alt>"
+imageWidth = 120
+imageHeight = 120
+
+[[params.socialIcons]]
+name = "Github"
+url = "https://github.com/technameer"
+
+[[params.socialIcons]]
+name = "LinkedIn"
+url = "https://linkedin.com/in/technameer"
+
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
+
+[[menu.main]]
+  identifier = "posts"
+  name = "Blog"
+  url = "/posts/"
+  weight = 20
