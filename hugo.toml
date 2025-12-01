@@ -4,7 +4,6 @@ title = 'Nexmeer'
 theme = 'PaperMod'
 
 [params]
-  env = "production"
   showToc = true
   showReadingTime = true
   ShowPostNavLinks = true
