@@ -1,15 +1,23 @@
-name: Deploy Hugo site to GitHub Pages
+name: Deploy Hugo site to gh-pages
 
 on:
   push:
     branches:
       - main
 
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          submodules: true
+          fetch-depth: 0
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
@@ -17,13 +25,13 @@ jobs:
           hugo-version: '0.146.0'
           extended: true
 
-      - name: Build Hugo site
+      - name: Build site
         run: hugo --minify
 
-      - name: Deploy to technameer.github.io
+      - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
           publish_dir: ./public
-          destination_repo: technameer/technameer.github.io
+          keep_files: true
