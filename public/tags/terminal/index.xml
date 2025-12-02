@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Terminal on Nexmeer</title>
+    <link>http://localhost:1313/tags/terminal/</link>
+    <description>Recent content in Terminal on Nexmeer</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Dec 2025 17:40:43 +0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/terminal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting Started With Linux</title>
+      <link>http://localhost:1313/posts/linux/</link>
+      <pubDate>Mon, 01 Dec 2025 17:40:43 +0500</pubDate>
+      <guid>http://localhost:1313/posts/linux/</guid>
+      <description>&lt;p&gt;I recently started using Linux and found it to be an amazing and powerful system. If you are the kind of person who likes to get most things done from the keyboard without touching the mouse, you will find Linux to be the perfect system for you. In this article, I will guide you through Linux so that you will be comfortable starting to use it.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-what-is-linux&#34;&gt;🐧 What is Linux?&lt;/h2&gt;
+&lt;p&gt;Linux is an &lt;strong&gt;open-source operating system&lt;/strong&gt;, meaning it is software that manages the hardware of a computer. It is freely available for anyone to use and modify. Linux is built around the &lt;strong&gt;Linux kernel&lt;/strong&gt;, which is responsible for managing memory and system resources. Linux comes in different versions called &lt;strong&gt;distributions (distros)&lt;/strong&gt;, such as &lt;strong&gt;Fedora, Debian, and Ubuntu&lt;/strong&gt;. Each distribution has its own interface and features, but the underlying architecture is the same.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

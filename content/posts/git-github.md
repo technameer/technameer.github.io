@@ -2,6 +2,7 @@
 title = 'Introduction to Git & Github'
 date = 2025-12-01T17:50:41+05:00
 draft = false
+tags = ["git","github","version-control",]
 +++
 
 Imagine you are working on a large-scale project where you are testing different approaches to a problem. You solve the problem but you want to further improve it. You power off your system and again work on the project another day. You find that the problem can't be solved any other way and the only solution to that problem is the one you implemented previously. But there is no way to revert it back. **This is where Git comes in.**

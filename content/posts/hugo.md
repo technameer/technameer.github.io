@@ -2,6 +2,7 @@
 title = 'Introduction To Hugo'
 date = 2025-12-02T00:26:26+05:00
 draft = false
+tags = ["hugo","static-site","github-pages","deployment"]
 +++
 
 Hugo is a static site generator based on Go. It is known for its blazing speed and flexibility, allowing it to render sites within a second or less. It has an advanced templating system that makes it incredibly powerful for building modern websites. Hugo comes with its own server having hot reload functionality, so you can see the site changes instantly in your browser.

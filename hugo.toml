@@ -12,6 +12,10 @@ theme = 'PaperMod'
   [params.search]
     enable = true
 
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
 [params.profileMode]
 enabled = true
 title = "Nameer Ahmad"

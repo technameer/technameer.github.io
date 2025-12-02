@@ -2,6 +2,7 @@
 title = 'Getting Started With Linux'
 date = 2025-12-01T17:40:43+05:00
 draft = false
+tags = ["linux","ubuntu","linux-installation","dual-boot","terminal","command-line"]
 +++
 
 I recently started using Linux and found it to be an amazing and powerful system. If you are the kind of person who likes to get most things done from the keyboard without touching the mouse, you will find Linux to be the perfect system for you. In this article, I will guide you through Linux so that you will be comfortable starting to use it.
