@@ -4,6 +4,7 @@ title = 'Nexmeer'
 theme = 'PaperMod'
 
 [params]
+  author = "Nexmeer"
   showToc = true
   showReadingTime = true
   ShowPostNavLinks = true
@@ -15,9 +16,6 @@ theme = 'PaperMod'
 [taxonomies]
   tag = "tags"
   category = "categories"
-
-[params.author]
-  name = "Nameer Ahmad"
 
 [params.profileMode]
 enabled = true
