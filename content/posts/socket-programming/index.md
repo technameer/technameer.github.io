@@ -6,7 +6,7 @@ description = "Learn what sockets are, how TCP and UDP differ, and how to build 
 tags = ["networking", "socket-programming", "TCP", "UDP", "python", "websockets"]
 
 [cover]
-image = "thumbnail.png"
+image = "thumbnail.jpeg"
 alt = "client server sockets"
 +++
 

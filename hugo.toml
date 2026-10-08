@@ -1,5 +1,5 @@
 baseURL = 'https://technameer.github.io/'
-languageCode = 'en-us'
+locale = 'en-us'
 title = 'Nexmeer'
 theme = 'PaperMod'
 
@@ -15,6 +15,9 @@ theme = 'PaperMod'
 [taxonomies]
   tag = "tags"
   category = "categories"
+
+[params.author]
+  name = "Nameer Ahmad"
 
 [params.profileMode]
 enabled = true
