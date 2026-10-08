@@ -167,10 +167,10 @@ print(df.filter(df.passenger_count > 2).count())
 
 Output:
 
-```
-Trips with more than 2 passengers:  136680
-```
+```text
+Trips with more than 2 passengers: 136680
 
+```
 For example, here in this code it will show the total trips with more than 2 passengers.
 
 We can also combine multiple conditions inside the filter:
